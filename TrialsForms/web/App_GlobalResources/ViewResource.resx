@@ -1,0 +1,1012 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="CountryOfBirth" xml:space="preserve">
+    <value>Country of birth</value>
+  </data>
+  <data name="CountryOfCitizenship" xml:space="preserve">
+    <value>Country of citizenship</value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="Declaration" xml:space="preserve">
+    <value>As an agent I declare:
+
+        That the information contained in this application is true and complete. The information submitted has been reviewed and verified by the applicant.
+
+        That any false or incomplete information submitted in support of the application may invalidate the application. In such instance Admission offers will be rescinded and this rescission may take place at any time during the application process or enrolment.
+
+        That I have reviewed the following information with the applicant:
+
+        They agree to the collection and storage of their personal information by Georgian College
+
+        They authorize Georgian College to release and obtain information from Citizenship and Immigration Canada related to their study permit
+
+        Documentation submitted to Georgian College will not be returned
+
+        They have reviewed and understand the refund policy at Georgian College in Academic Regulations (3.5.2.2. Refunds International students) which includes:
+
+        Partial refunds of tuition for withdraws within the first 10 days
+
+        Full refunds for study permit refusals
+
+        I confirm that I remain bound by the terms and conditions in the agency contract signed with Georgian College.
+
+I understand that Georgian College reserves the sole and exclusive right to admit or refuse any applicant.</value>
+  </data>
+  <data name="EAPC_Note" xml:space="preserve">
+    <value>As the applicant has completed or is scheduled to take a test, they will be placed in EAPC, pending review of this application.  EAPC is the study of English for post-secondary studies. It represents levels 5-8 (of 8 levels) of our English language program. Students in EAPC already have good English skills.</value>
+  </data>
+  <data name="ELP_Note" xml:space="preserve">
+    <value>The language of instruction at Georgian College is English. In addition to the academic admission requirements, all applicants for whom English is not their first language and/or are coming from countries where English is not an official language, must provide proof of language proficiency.</value>
+  </data>
+  <data name="ESLG_Note" xml:space="preserve">
+    <value>As the applicant has not completed an English test, they will be placed in ESLG, pending review of this application. ESLG is the study of English as a second language. It represents levels 1-4 (of 8 levels) of our English language program. Students in this level have little to no English skills.</value>
+  </data>
+  <data name="FIPPA_Note" xml:space="preserve">
+    <value>The personal information in this application is collected under the legal authority of the Ontario Colleges of Applied Arts and Technology Act, 2002, and in accordance with Sections 38(2) and 41(1) of the Freedom of Information and Protection of Privacy Act (FIPPA), 1990. The information is collected for the purpose of admissions, records management, student service delivery and internal operations at Georgian College. The information is also used for reporting and information sharing with external organizations, including but not limited to, the governments of Ontario and Canada, the Canadian Border Services Agency, and Citizenship and Immigration Canada. For further information regarding this collection, please contact the Office of the Registrar, 705.728.1968, ext. 1698 or fax 705.722.5123. For further information regarding FIPPA or your access and privacy rights, please contact the Access &amp; Privacy Office at 705-728-1968 ext. 5770 or accessprivacy@georgiancollege.ca</value>
+  </data>
+  <data name="FirstLanguage" xml:space="preserve">
+    <value>First language/mother tongue</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First name (given name)</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last name (family name)</value>
+  </data>
+  <data name="MailingAddressLine1" xml:space="preserve">
+    <value>Mailing address line 1</value>
+  </data>
+  <data name="MailingAddressLine2" xml:space="preserve">
+    <value>Mailing address line 2</value>
+  </data>
+  <data name="MailingAddressSameAsPermanent" xml:space="preserve">
+    <value>Mailing address is the same as permanent address</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>Middle name</value>
+  </data>
+  <data name="PermanentAddressLine1" xml:space="preserve">
+    <value>Permanent address line 1</value>
+  </data>
+  <data name="PermanentAddressLine2" xml:space="preserve">
+    <value>Permanent address line 2</value>
+  </data>
+  <data name="PersonalDetails_Note" xml:space="preserve">
+    <value>Note: First, middle and last name must be as it appears on passport. &lt;br/&gt;If the applicant has only one name, please enter it in both the first and last name fields.</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Postal/zip code</value>
+  </data>
+  <data name="PreferredName" xml:space="preserve">
+    <value>Preferred name</value>
+  </data>
+  <data name="ProgramChoices_Note" xml:space="preserve">
+    <value>The college does not guarantee the availability of programs. Please select up to three programs and rank them in order of preference. Choice number 1 will be the program reviewed first. You may change the order of choices by dragging and dropping.</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Province/state</value>
+  </data>
+  <data name="StudentEmailAddress" xml:space="preserve">
+    <value>Applicant email address</value>
+  </data>
+  <data name="TelephoneNumber" xml:space="preserve">
+    <value>Telephone number</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Salutation</value>
+  </data>
+  <data name="UploadPassport" xml:space="preserve">
+    <value>Upload passport</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Select option</value>
+  </data>
+  <data name="PostSecondary" xml:space="preserve">
+    <value>post-secondary</value>
+  </data>
+  <data name="Certificate" xml:space="preserve">
+    <value>certificate</value>
+  </data>
+  <data name="GraduateCertificate" xml:space="preserve">
+    <value>graduate certificate</value>
+  </data>
+  <data name="UndergraduateDegree" xml:space="preserve">
+    <value>Undergraduate degree</value>
+  </data>
+  <data name="GraduateDegree" xml:space="preserve">
+    <value>graduate degree</value>
+  </data>
+  <data name="AlertStudyPermit" xml:space="preserve">
+    <value>You have selected English Language Studies at Georgian and PHPA, Study permit may not get approved</value>
+  </data>
+  <data name="BSInNursingProgramCode" xml:space="preserve">
+    <value>BSCN</value>
+  </data>
+  <data name="PreHealthSciencesProgramCode" xml:space="preserve">
+    <value>PHPA</value>
+  </data>
+  <data name="InvalidDateOfBirth" xml:space="preserve">
+    <value>We do not accept applications for applicants younger than {0} years old. '{1}' should occur on or before {2}</value>
+  </data>
+  <data name="CharactersOnly" xml:space="preserve">
+    <value>Use characters only</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>Not a valid email address</value>
+  </data>
+  <data name="InvalidPhoneNumber" xml:space="preserve">
+    <value>Not a valid phone number</value>
+  </data>
+  <data name="EnglishLanguageTest" xml:space="preserve">
+    <value>English language test (i.e., TOEFL, IELTS, CAEL)?</value>
+  </data>
+  <data name="ExemptCountryNote" xml:space="preserve">
+    <value>This country meets our English Language exemption criteria.</value>
+  </data>
+  <data name="NonExemptCountryNote" xml:space="preserve">
+    <value>This country does not meet our English language exemption criteria.  Please select another option below</value>
+  </data>
+  <data name="AdditionalEducation" xml:space="preserve">
+    <value>Has the applicant completed additional education at an English speaking institution?</value>
+  </data>
+  <data name="ApplicationYear" xml:space="preserve">
+    <value>Application year</value>
+  </data>
+  <data name="EnglishLanguageStudies" xml:space="preserve">
+    <value>English language studies</value>
+  </data>
+  <data name="PostSecondaryProgram" xml:space="preserve">
+    <value>Post-secondary program (certificate, diploma, degree)</value>
+  </data>
+  <data name="WhichProgramsApplyFor" xml:space="preserve">
+    <value>Please indicate which program(s) the applicant wishes to apply for (select at least one option)</value>
+  </data>
+  <data name="PreferredStartDate" xml:space="preserve">
+    <value>Preferred start date</value>
+  </data>
+  <data name="PreviousEducationCredentialType" xml:space="preserve">
+    <value>Credential type</value>
+  </data>
+  <data name="DateOfTest" xml:space="preserve">
+    <value>Date of test</value>
+  </data>
+  <data name="HasTheApplicantGraduated" xml:space="preserve">
+    <value>Has the applicant graduated?</value>
+  </data>
+  <data name="IsStudentScheduledToCompleteTest" xml:space="preserve">
+    <value>Is the student scheduled to complete a test?</value>
+  </data>
+  <data name="PreviousEducationName" xml:space="preserve">
+    <value>Name of educational institution</value>
+  </data>
+  <data name="NameOfTest" xml:space="preserve">
+    <value>Name of test</value>
+  </data>
+  <data name="TestScore" xml:space="preserve">
+    <value>Overall test score</value>
+  </data>
+  <data name="UploadEnglishTest" xml:space="preserve">
+    <value>Upload English test</value>
+  </data>
+  <data name="UploadTranscripts" xml:space="preserve">
+    <value>Upload transcripts</value>
+  </data>
+  <data name="ApplicantCompletedAdditionalEnglish" xml:space="preserve">
+    <value>Has the applicant completed additional education at an English speaking institution?</value>
+  </data>
+  <data name="ChooseProgramApplicantIsApplyingFor" xml:space="preserve">
+    <value>Please choose program applicant is applying for</value>
+  </data>
+  <data name="EnglishLanguageTest2" xml:space="preserve">
+    <value>English language test</value>
+  </data>
+  <data name="FirstChoice" xml:space="preserve">
+    <value>First choice</value>
+  </data>
+  <data name="GeorgianCollegePathwayPartner" xml:space="preserve">
+    <value>Georgian college pathway partner</value>
+  </data>
+  <data name="HowApplicantWillMeetEnglishProficiency" xml:space="preserve">
+    <value>Select one of the following options to indicate how the applicant will meet Georgian’s English language proficiency requirements.</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>I agree</value>
+  </data>
+  <data name="OneYearPostSecondaryInEnglish" xml:space="preserve">
+    <value>One year post-secondary in English</value>
+  </data>
+  <data name="OntarioSecondarySchoolDiploma" xml:space="preserve">
+    <value>Ontario secondary school diploma</value>
+  </data>
+  <data name="SecondChoice" xml:space="preserve">
+    <value>Second choice</value>
+  </data>
+  <data name="ThirdChoice" xml:space="preserve">
+    <value>Third choice</value>
+  </data>
+  <data name="ThreeYearsStudyInEnglish" xml:space="preserve">
+    <value>Three years study in English</value>
+  </data>
+  <data name="WhichCountryCompletedEducation" xml:space="preserve">
+    <value>In which country did the applicant complete their education?</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Birth date</value>
+  </data>
+  <data name="ApplicationCreatedOn" xml:space="preserve">
+    <value>Created on</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="StudentId" xml:space="preserve">
+    <value>Student id</value>
+  </data>
+  <data name="ApplicationSubmissionStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ProgramOrder" xml:space="preserve">
+    <value>Choice</value>
+  </data>
+  <data name="ProgramCode" xml:space="preserve">
+    <value>Program code</value>
+  </data>
+  <data name="ProgramTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ProgramCampus" xml:space="preserve">
+    <value>Campus</value>
+  </data>
+  <data name="ProgramId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ProgramStartTerm" xml:space="preserve">
+    <value>Start term</value>
+  </data>
+  <data name="ApplicantDetailsHeading" xml:space="preserve">
+    <value>Applicant details</value>
+  </data>
+  <data name="ContactInformationHeading" xml:space="preserve">
+    <value>Contact information</value>
+  </data>
+  <data name="DocumentName" xml:space="preserve">
+    <value>Document name</value>
+  </data>
+  <data name="IndicatesRequiredField" xml:space="preserve">
+    <value>indicates required field</value>
+  </data>
+  <data name="MailingAddressHeading" xml:space="preserve">
+    <value>Mailing address</value>
+  </data>
+  <data name="OtherInformationHeading" xml:space="preserve">
+    <value>Other information</value>
+  </data>
+  <data name="PassportUploaded" xml:space="preserve">
+    <value>Passport uploaded</value>
+  </data>
+  <data name="PermanentAddressHeading" xml:space="preserve">
+    <value>Permanent address</value>
+  </data>
+  <data name="PermanentAddressMessage" xml:space="preserve">
+    <value>Address on the letter of acceptance will be the permanent address</value>
+  </data>
+  <data name="PersonalInformationHeading" xml:space="preserve">
+    <value>Personal information</value>
+  </data>
+  <data name="UploadDate" xml:space="preserve">
+    <value>Upload date</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Welcome to the</value>
+  </data>
+  <data name="ApplicationId" xml:space="preserve">
+    <value>Application ID</value>
+  </data>
+  <data name="AcademicYear" xml:space="preserve">
+    <value>Academic year</value>
+  </data>
+  <data name="ApplicantPreviousEducationHeading" xml:space="preserve">
+    <value>Applicant education</value>
+  </data>
+  <data name="ApplicationSummaryHeading" xml:space="preserve">
+    <value>My application summary</value>
+  </data>
+  <data name="PreviousEducationCredentialTypeId" xml:space="preserve">
+    <value>Type id</value>
+  </data>
+  <data name="OcasNumber" xml:space="preserve">
+    <value>Application no.</value>
+  </data>
+  <data name="PreviousEducationDocument" xml:space="preserve">
+    <value>Transcripts</value>
+  </data>
+  <data name="ChangePasswordButton" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="ChangePasswordFormHeading" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="TermsAndConditionsHeading" xml:space="preserve">
+    <value>Terms and conditions</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="AddApplicationButton" xml:space="preserve">
+    <value>Add application</value>
+  </data>
+  <data name="ApplicantProgramChoicesHeading" xml:space="preserve">
+    <value>Applicant program choices</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Area of interest</value>
+  </data>
+  <data name="Availability" xml:space="preserve">
+    <value>Availability</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Coop" xml:space="preserve">
+    <value>Co-op</value>
+  </data>
+  <data name="CrmDocumentCreatedDate" xml:space="preserve">
+    <value>Date created</value>
+  </data>
+  <data name="CrmDocumentEducationId" xml:space="preserve">
+    <value>Education id</value>
+  </data>
+  <data name="CrmDocumentId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="CrmDocumentLocation" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="CrmDocumentName" xml:space="preserve">
+    <value>Document name</value>
+  </data>
+  <data name="CrmDocumentTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="DeleteDocumentButton" xml:space="preserve">
+    <value>Delete document</value>
+  </data>
+  <data name="DescriptionAdditionalInformation" xml:space="preserve">
+    <value>Description of additional information</value>
+  </data>
+  <data name="DocumentUploadHeading" xml:space="preserve">
+    <value>Document upload</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="EnglishLanguageProficiencyHeading" xml:space="preserve">
+    <value>English language proficiency</value>
+  </data>
+  <data name="EnglishLanguageStudiesHeading" xml:space="preserve">
+    <value>English language studies</value>
+  </data>
+  <data name="EnglishTestUploaded" xml:space="preserve">
+    <value>English test transcript uploaded</value>
+  </data>
+  <data name="IndicateProgramsMessage" xml:space="preserve">
+    <value>Please indicate which program(s) the applicant wishes to apply for (select at least one option)</value>
+  </data>
+  <data name="PostSecondaryProgramHeading" xml:space="preserve">
+    <value>Post-Secondary Program(certificate, diploma, degree)</value>
+  </data>
+  <data name="ResetButton" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="SubmitButton" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="UploadDocumentButton" xml:space="preserve">
+    <value>Upload document</value>
+  </data>
+  <data name="AddPreviousEducationButton" xml:space="preserve">
+    <value>Add education</value>
+  </data>
+  <data name="AddProgramButton" xml:space="preserve">
+    <value>Add program</value>
+  </data>
+  <data name="CreateUserAccountButton" xml:space="preserve">
+    <value>Create user account</value>
+  </data>
+  <data name="ForgotYourPassword" xml:space="preserve">
+    <value>Forgot your password?</value>
+  </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="ManageExternalLoginsHeading" xml:space="preserve">
+    <value>Manage your external logins</value>
+  </data>
+  <data name="NoLocalAccountMessage" xml:space="preserve">
+    <value>if you don't have a local account.</value>
+  </data>
+  <data name="PreviousEducationId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ProgramListHeading" xml:space="preserve">
+    <value>Program list</value>
+  </data>
+  <data name="RegisterButton" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="RemoveButton" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveLoginProviderMessage" xml:space="preserve">
+    <value>Remove this {0} login from your account</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveFreedomOfInformationButton" xml:space="preserve">
+    <value>Save freedom of information</value>
+  </data>
+  <data name="SetPasswordButton" xml:space="preserve">
+    <value>Set password</value>
+  </data>
+  <data name="SkipButton" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="ProgramCredentialType" xml:space="preserve">
+    <value>Credential type</value>
+  </data>
+  <data name="PassportFirstPageUploadMessage" xml:space="preserve">
+    <value>If the applicant has a current passport, please upload a copy of the picture page. This will assist admissions with validating personal details.</value>
+  </data>
+  <data name="ApplicantDetailsTabHeading" xml:space="preserve">
+    <value>Applicant details</value>
+  </data>
+  <data name="ProgramChoiceTabHeading" xml:space="preserve">
+    <value>Program choice</value>
+  </data>
+  <data name="EnglishLanguageProficiencyTabHeading" xml:space="preserve">
+    <value>English language proficiency</value>
+  </data>
+  <data name="EducationTabHeading" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="DisclaimerTabHeading" xml:space="preserve">
+    <value>Disclaimer</value>
+  </data>
+  <data name="PaymentTabHeading" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="CompletedAdditionalEnglishEducation" xml:space="preserve">
+    <value>Applicant has completed additional education at an English speaking institution:</value>
+  </data>
+  <data name="CompletedEducationInEglishCountry" xml:space="preserve">
+    <value>Applicant completed their education in an English speaking country:</value>
+  </data>
+  <data name="CompletedEnglishTest" xml:space="preserve">
+    <value>Applicant has completed or is scheduled to complete an English Language test:</value>
+  </data>
+  <data name="LoginEmailAddress" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="LoginPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Confirm new password</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Current password</value>
+  </data>
+  <data name="LoginRememberMe" xml:space="preserve">
+    <value>Remember me?</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="RegisterConfirmEmail" xml:space="preserve">
+    <value>Confirm email</value>
+  </data>
+  <data name="RegisterEmailNoMatchError" xml:space="preserve">
+    <value>The Email and confirmation email do not match.</value>
+  </data>
+  <data name="RegisterPasswordTooShortError" xml:space="preserve">
+    <value>The {0} must be at least {2} characters long.</value>
+  </data>
+  <data name="UserInfoFirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="UserInfoLastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="UserInfoUserName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="CopyrightInstitutionName" xml:space="preserve">
+    <value>Georgian College</value>
+  </data>
+  <data name="ErrorOccurred" xml:space="preserve">
+    <value>An error occurred while processing your request.</value>
+  </data>
+  <data name="ErrorPageTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="InfoPageTitle" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="NavigationHomePage" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="NavigationManageProfile" xml:space="preserve">
+    <value>Manage Profile</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="PrivacyPolicyUrl" xml:space="preserve">
+    <value>http://www.georgiancollege.ca/privacy-policy/</value>
+  </data>
+  <data name="ApplicationPageTitle" xml:space="preserve">
+    <value>International Application Form</value>
+  </data>
+  <data name="PreviousEducationGraduatedNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PreviousEducationGraduatedYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="SaveAndCloseButton" xml:space="preserve">
+    <value>Save and Close</value>
+  </data>
+  <data name="PaymentTitle" xml:space="preserve">
+    <value>Payment method</value>
+  </data>
+  <data name="TopNavbarLogoDescription" xml:space="preserve">
+    <value>Georgian College Canada logo</value>
+  </data>
+  <data name="TopNavbarLogoFileName" xml:space="preserve">
+    <value>georgian_logo-green_white.svg</value>
+  </data>
+  <data name="ProgramListSearchCriteriaHeading" xml:space="preserve">
+    <value>Enter search criteria</value>
+  </data>
+  <data name="AddApplicationInstructions" xml:space="preserve">
+    <value>To add an application, provide the following information and select Submit.</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Georgian College International Application System</value>
+  </data>
+  <data name="CoBPlaceholder" xml:space="preserve">
+    <value>Select applicant's country of birth from the list</value>
+  </data>
+  <data name="DoBPlaceholder" xml:space="preserve">
+    <value>Enter applicant's date of birth</value>
+  </data>
+  <data name="EmailPlaceholder" xml:space="preserve">
+    <value>Enter applicant's email address</value>
+  </data>
+  <data name="FirstNamePlaceholder" xml:space="preserve">
+    <value>Enter applicant's first name</value>
+  </data>
+  <data name="LastNamePlaceholder" xml:space="preserve">
+    <value>Enter applicant's last name</value>
+  </data>
+  <data name="HasTheApplicantCompletedAnyEnglishTest" xml:space="preserve">
+    <value>Has the applicant completed any English test?</value>
+  </data>
+  <data name="NameOfTestId" xml:space="preserve">
+    <value>Name of the Test</value>
+  </data>
+  <data name="AgreeTermsAndConditions" xml:space="preserve">
+    <value>You must agree with the terms and conditions.</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="AtleastOneProgramChoiceIsRequired" xml:space="preserve">
+    <value>Atleast one program choice is required</value>
+  </data>
+  <data name="OneNameMessage" xml:space="preserve">
+    <value>If the applicant has only one name, please enter it in both the first and last name fields.</value>
+  </data>
+  <data name="PreviousEducationEntityName" xml:space="preserve">
+    <value>Previous education for {0}</value>
+  </data>
+  <data name="ProgramDegree" xml:space="preserve">
+    <value>Program/Degree</value>
+  </data>
+  <data name="ProgramEndDate" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="ProgramStartDate" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="AddPreviousEducationInstructions" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HasApplicantCompletedEnglishTests" xml:space="preserve">
+    <value>Has the applicant completed any English tests? (i.e., TOEFL, IELTS, CAEL)</value>
+  </data>
+  <data name="CrmDocumentSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="ApplicantId" xml:space="preserve">
+    <value>Applicant id</value>
+  </data>
+  <data name="ProgramOffering" xml:space="preserve">
+    <value>Program offering</value>
+  </data>
+  <data name="NavigationApplication" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="FinalizeApplication" xml:space="preserve">
+    <value>By proceeding to the next step you are confirming this application and will not be permitted to make any further changes. Do you wish to lock your application and proceed to payment and submission?</value>
+  </data>
+  <data name="FinalizeApplicationNo" xml:space="preserve">
+    <value>No - make further changes</value>
+  </data>
+  <data name="FinalizeApplicationTitle" xml:space="preserve">
+    <value>Lock application and proceed to next step?</value>
+  </data>
+  <data name="FinalizeApplicationYes" xml:space="preserve">
+    <value>Yes - proceed</value>
+  </data>
+  <data name="PaymentFinalizeWarning" xml:space="preserve">
+    <value>Please fix all errors on the application before proceeding to this step.</value>
+  </data>
+  <data name="PaymentFinalizeWarningTitle" xml:space="preserve">
+    <value>Fix Errors Before Proceeding</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PreviousEducationNote" xml:space="preserve">
+    <value>Please list all educational institutions you have attended or are currently attending, in chronological order. List high schools (secondary) and any colleges or universities (post-secondary), and whether you graduated. As a matter of academic honesty it is very important to list all of your education, as it will ensure that your application is assessed properly. Also, if you decide to apply for transfer credits, only accredited institutions that appear on your admission application will be considered. Below, please add up to 5 institutions by selecting the “add education” button.</value>
+  </data>
+  <data name="InformationComplete" xml:space="preserve">
+    <value>The form is complete</value>
+  </data>
+  <data name="InformationMissing" xml:space="preserve">
+    <value>There is missing information on the form</value>
+  </data>
+  <data name="ThisIsATest" xml:space="preserve">
+    <value>Please note that this is a test site only. Applications submitted will not be processed.</value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>Error:</value>
+  </data>
+  <data name="LoginLogoFileName" xml:space="preserve">
+    <value>georgian_canada_logo.svg</value>
+  </data>
+  <data name="EnglishTestCompletedDateNotInPast" xml:space="preserve">
+    <value>A completed English test should have a {0} that occurred in the past.</value>
+  </data>
+  <data name="EnglishTestDateOutOfRange" xml:space="preserve">
+    <value>English tests have an expiry date. All English tests are valid for two years from the date of the test. {0} should have occurred after {1} and before {2}.</value>
+  </data>
+  <data name="EnglishTestScheduledDateNotInFuture" xml:space="preserve">
+    <value>A scheduled English test should have a {0} that occurs in the future.</value>
+  </data>
+  <data name="ErrorFieldIsRequired" xml:space="preserve">
+    <value>{0} is required</value>
+  </data>
+  <data name="EmailInUse" xml:space="preserve">
+    <value>The email address entered is already in use. Please enter a different email address.</value>
+  </data>
+  <data name="CrmDocumentType" xml:space="preserve">
+    <value>Document type</value>
+  </data>
+  <data name="PreviousEducationDocumentList" xml:space="preserve">
+    <value>Previous Education Transcripts</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>The {0} field is required.</value>
+  </data>
+  <data name="AgentName" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="ApplicantIsNotDuplicate" xml:space="preserve">
+    <value>Applicant is not a duplicate, create a new applicant and application.</value>
+  </data>
+  <data name="ApplicationDate" xml:space="preserve">
+    <value>Application Date</value>
+  </data>
+  <data name="CreateApplicantButton" xml:space="preserve">
+    <value>Create new applicant</value>
+  </data>
+  <data name="ProgramChoicesCount" xml:space="preserve">
+    <value>Program count</value>
+  </data>
+  <data name="LevelCode" xml:space="preserve">
+    <value>Level code</value>
+  </data>
+  <data name="CreateApplicationForApplicant" xml:space="preserve">
+    <value>Create new application</value>
+  </data>
+  <data name="OpenExistingApplicationButton" xml:space="preserve">
+    <value>Open existing application</value>
+  </data>
+  <data name="PaymentNeedStudentId" xml:space="preserve">
+    <value>The system must generate a student ID before payment can be processed. Please wait for a student ID to be generated.</value>
+  </data>
+  <data name="PaymentNeeded" xml:space="preserve">
+    <value>Thank you for completing this application. In order to submit the application for processing you must pay an application fee of {0}.
+
+Once you submit this application, we will review it in detail and contact you with further instructions. You may return to this application at any time to view it. To make changes to the application or to provide additional/final documents, please contact reginternational@georgiancollege.ca
+
+If you have any questions, please contact your Regional Manager or In Country Representative. Thank you for doing business with Georgian College.</value>
+  </data>
+  <data name="PaymentButton" xml:space="preserve">
+    <value>Pay fee using TouchNet</value>
+  </data>
+  <data name="PaymentWaived" xml:space="preserve">
+    <value>Thank you for completing this application. We value your business and have waived your application fee.
+
+Once you submit this application, we will review it in detail and contact you with further instructions. You may return to this application at any time to view it. To make changes to the application or to provide additional/final documents, please contact reginternational@georgiancollege.ca
+
+If you have any questions, please contact your Regional Manager or In Country Representative. Thank you for doing business with Georgian College.</value>
+  </data>
+  <data name="PaymentWaivedTitle" xml:space="preserve">
+    <value>Payment Waived</value>
+  </data>
+  <data name="PreviousEducationErrors" xml:space="preserve">
+    <value>Please fix the following errors before saving:</value>
+  </data>
+  <data name="AdditionalDocumentsIntroduction" xml:space="preserve">
+    <value>You have selected a program which requires submission of additional documentation in order for your application to be considered. Click on the document name to view specific details.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Filters" xml:space="preserve">
+    <value>Refine by</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="GoBackToApplicationAndPay" xml:space="preserve">
+    <value>Go Back To Application And Pay</value>
+  </data>
+  <data name="ReturnToHomeScreen" xml:space="preserve">
+    <value>Return To Home Screen </value>
+  </data>
+  <data name="PaymentCancelMsg" xml:space="preserve">
+    <value>Your payment has been cancelled.  This application has not been submitted. 
+ 
+You may return to this application at any time to view, edit or submit it.</value>
+  </data>
+  <data name="PaymentErrorMsg" xml:space="preserve">
+    <value>Processing error.  Your payment has not been processed and this application has not been submitted.   Please review the payment information you entered and try again or return to this application at a later date.  If you continue to experience issues submitting this application please contact reginternational@georgiancollege.ca.</value>
+  </data>
+  <data name="PaymentSuccessMsg" xml:space="preserve">
+    <value>Your payment has been successfully applied and this application has been submitted. 
+ 
+You may return to this application at any time to view it. To make changes to the application or to provide additional/final documents, please contact reginternational@georgiancollege.ca</value>
+  </data>
+  <data name="AtleastOneTranscriptIsRequired" xml:space="preserve">
+    <value>Atleast one transcript is required</value>
+  </data>
+  <data name="OfferStatus" xml:space="preserve">
+    <value>Offer status</value>
+  </data>
+  <data name="AcademicYearFilter" xml:space="preserve">
+    <value>Academic year</value>
+  </data>
+  <data name="AgentFilter" xml:space="preserve">
+    <value>Agent</value>
+  </data>
+  <data name="ApplicationStatusFilter" xml:space="preserve">
+    <value>Application status</value>
+  </data>
+  <data name="OfferStatusFilter" xml:space="preserve">
+    <value>Offer status</value>
+  </data>
+  <data name="AdminAppList" xml:space="preserve">
+    <value>Submitted applications</value>
+  </data>
+  <data name="ApplicationListPage" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="VettingPage" xml:space="preserve">
+    <value>Vetting</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="ClearSelections" xml:space="preserve">
+    <value>Clear selections</value>
+  </data>
+  <data name="BirthDay" xml:space="preserve">
+    <value>Birth date</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Created on</value>
+  </data>
+  <data name="SubmissionStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ProgramAdditionalDocumentsRequirement" xml:space="preserve">
+    <value>Program Additional Documents Requirement</value>
+  </data>
+  <data name="AtleastOneAdditionalDocumentIsRequired" xml:space="preserve">
+    <value>Atleast one additional document attachment is required.</value>
+  </data>
+  <data name="ApplicationReadyToSubmitMsg" xml:space="preserve">
+    <value>Your application is complete and is ready to be submitted.</value>
+  </data>
+  <data name="ApplicationSubmittedMsg" xml:space="preserve">
+    <value>Yout application has been submitted.</value>
+  </data>
+  <data name="ErrorFinalizeInvalidProgramStartDate" xml:space="preserve">
+    <value>Unable to find valid program start date for application.</value>
+  </data>
+  <data name="ErrorFinalizeUnableToWriteToQueue" xml:space="preserve">
+    <value>Unable to write to  Azure queue.</value>
+  </data>
+  <data name="ErrorFinalizeUnknownApplicationId" xml:space="preserve">
+    <value>An application with specified ID was not found.</value>
+  </data>
+  <data name="ErrorFinalizeUnknownError" xml:space="preserve">
+    <value>Server error, try again.</value>
+  </data>
+  <data name="FinalizeSuccess" xml:space="preserve">
+    <value>Application is finalized and a student ID has been requested.</value>
+  </data>
+</root>
