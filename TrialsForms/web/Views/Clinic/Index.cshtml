@@ -1,0 +1,120 @@
+﻿@model IEnumerable<TrialsSurveys.Models.ClinicModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-sm-4">
+        <h2>Clinics</h2>
+    </div>
+</div>
+
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>List of Clinics</h5>
+                    <div class="ibox-tools">
+                        @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary btn-xs" })
+                    </div>
+                </div>
+                <div class="ibox-content">
+
+                    <table class="table table-striped">
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClinicId)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ClinicName)
+                            </th>
+                            <th style="display: none;">
+                                @Html.DisplayNameFor(model => model.DateCreated)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Address1)
+                            </th>
+                            <th style="display: none;">
+                                @Html.DisplayNameFor(model => model.Address2)
+                            </th>
+                            <th style="display: none;">
+                                @Html.DisplayNameFor(model => model.City)
+                            </th>
+                            <th style="display: none;">
+                                @Html.DisplayNameFor(model => model.Province)
+                            </th>
+                            <th style="display: none;">
+                                @Html.DisplayNameFor(model => model.PostalCode)
+                            </th>
+                            <th style="display: none;">
+                                @Html.DisplayNameFor(model => model.PhoneNumber)
+                            </th>
+                            <th style="display: none;">
+                                @Html.DisplayNameFor(model => model.FaxNumber)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.EmailAddress)
+                            </th>
+                        </tr>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr class="clickRow" id="@item.ClinicId" data-url="@Url.Action("Details", "Clinic", new { clinicId = item.ClinicId })">
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ClinicId)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ClinicName)
+                                </td>
+                                <td style="display: none;">
+                                    @Html.DisplayFor(modelItem => item.DateCreated)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Address1)
+                                </td>
+                                <td style="display: none;">
+                                    @Html.DisplayFor(modelItem => item.Address2)
+                                </td>
+                                <td style="display: none;">
+                                    @Html.DisplayFor(modelItem => item.City)
+                                </td>
+                                <td style="display: none;">
+                                    @Html.DisplayFor(modelItem => item.Province)
+                                </td>
+                                <td style="display: none;">
+                                    @Html.DisplayFor(modelItem => item.PostalCode)
+                                </td>
+                                <td style="display: none;">
+                                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                                </td>
+                                <td style="display: none;">
+                                    @Html.DisplayFor(modelItem => item.FaxNumber)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.EmailAddress)
+                                </td>
+                            </tr>
+                        }
+
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        //$('#patientTable').DataTable();
+
+        $('.clickRow').click(function () {
+            var url = $(this).attr("data-url");
+            window.location.href = url;
+        });
+    });
+</script>

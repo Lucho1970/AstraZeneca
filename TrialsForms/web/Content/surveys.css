@@ -1,0 +1,17 @@
+﻿div.SurveyInstructions {
+    font-size: 1.2em;
+    padding-bottom: 30px;
+}
+
+div.SurveyInstructions.SurveyBottom {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+tr.clickRow {
+    cursor: pointer;
+}
+
+tr.clickRow:hover {
+    background-color: aquamarine !important;    
+}

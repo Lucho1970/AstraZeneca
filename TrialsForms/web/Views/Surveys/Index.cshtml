@@ -1,0 +1,62 @@
+﻿@model IEnumerable<TrialsSurveys.Models.SurveysModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-sm-4">
+        <h2>Patient - @ViewBag.PatientId</h2>
+    </div>
+</div>
+
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Surveys</h5>
+                </div>
+                <div class="ibox-content">
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SurveyName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    var surveyCompleted =
+    item.Completed;
+    <tr>
+        <td>
+            @Html.ActionLink(item.SurveyName, "Survey", "Surveys", new { patientId = ViewBag.PatientId, surveyId = item.SurveyId }, new { @class = "btn btn-white btn-sm" })
+                       
+        </td>
+        <td>
+            @if (surveyCompleted)
+            {
+                <img src="~/Images/check.png" alt="Completed" style="width: 24px;" />
+            }
+            else
+            {
+                <img src="~/Images/ex.png" alt="Not-Completed" style="width: 24px;" />
+            }
+        </td>
+    </tr>
+}
+
+</table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
